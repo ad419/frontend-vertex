@@ -1,0 +1,41 @@
+@media (min-width: 1500px) {
+  .right-img1 {
+    width: 38rem !important;
+    position: absolute;
+    right: 0;
+    margin-top: 4rem;
+  }
+  .hr-text {
+    display: none;
+  }
+  .left-button1 {
+    margin-left: 8rem;
+    margin-top: 2rem;
+    display: block !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .font-neuton {
+    font-family: "Neuton", serif;
+    font-size: 50px !important;
+    letter-spacing: 0px;
+  }
+  .right-img1 {
+    margin-left: 0.7rem;
+  }
+  .left-button1 {
+    display: none !important;
+  }
+  .hr {
+    border-top: 2px solid black;
+    width: 80%;
+  }
+  .hr-text {
+    text-align: center;
+    display: block !important;
+  }
+}
+.text-center1 {
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital@1&family=Poppins&display=swap");
+
+.color{
+    color: #0C1A2D;
+}.margin-top{
+    margin: 4% 0 0 0;
+}.flex-display {
+    display: flex;
+}.firstSection{
+    font: normal normal 300 18px/25px Poppins;
+    margin: 0 70px 0 70px;
+    max-width: 100%;
+}.homeContent{
+    width: 50%;
+}.homeContent h1{
+    font: italic 100px/90px Neuton;
+    width: 93%;
+}.keywords{
+    font:italic  450  75px/0 Poppins ;
+    text-decoration: underline;
+}.homeContent p {
+    font: 16px #818181;
+    
+}.homeContent button{
+    font-weight: 450;
+    border: 1px solid #0C1A2D;
+    border-radius: 50px;
+    width: 42%;
+    height: 50px;
+    margin: 0 3% 0 0;
+}.homeContent button:hover{
+    opacity: 80%;
+}.homeImg{
+    width: 50%;
+}.homeImg img{
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 480px ) {
+    .width{
+        width: 100%;
+    }.firstSection{
+        display: block;
+    }.homeContent h1{
+      font-size: 75px !important;
+      line-height: 70px !important;
+    }.keywords{
+        font-size: 50px;
+    }.homeContent p{
+        font-size: 17px;
+    }.homeContent button{
+        font-size: 16px;
+        margin: 1% 0;
+        height: 40px;
+        width: 100%;
+    }.buttons{
+        display: block;
+    }.homeImg{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 480px ) {
+    .width{
+        width: 100%;
+    }.firstSection{
+        display: block !important;
+    }.homeContent h1{
+      font-size: 45px !important;
+      line-height: 40px !important;
+    }
+    
+    .keywords{
+        font-size: 30px;
+    }.homeContent p{
+        font-size: 14px;
+        max-width: 100%;
+        margin: 5% 0;
+    }.homeContent button{
+        font-size: 14px;
+        margin: 2% 0;
+        height: 35px;
+        width: 100%;
+    }.buttons{
+        display: block;
+    }.homeImg{
+      display: none;
+    }
+  }

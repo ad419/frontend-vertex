@@ -1,0 +1,110 @@
+:root{
+    --color-p: #818181;
+    --color-h1: #0C1A2D;
+    --fontWeight: 450; 
+}.heroSection{
+    display: flex;
+    font: normal normal 300 18px/25px Poppins;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Hero Content */
+.heroContent{
+    width: 50%;
+    margin: 0 0 0 4%;
+}.heroContent h1{
+    font: italic 5.2vw/70px Neuton;
+    color: var(--color-h1);
+}.keyword{
+    font:italic  3.9vw/0 Poppins;
+    font-weight: var(--fontWeight);
+    text-decoration: underline;
+}.heroContent p{
+    color: var(--color-p);
+    margin: 3% 0;
+    width: 80%;
+}.buttons{
+    display: flex;
+}.buttons button{
+    font-size: 16px;
+    font-weight: var(--fontWeight);
+    border: 1px solid #0C1A2D;
+    border-radius: 50px;
+    width: 45%;
+    height: 50px;
+    margin: 0 2% 0 0;
+}.buttons button:hover{
+    opacity: 80%;
+}
+/* Home Hero Img */
+.HomeHeroImg{
+    width: 50%;
+}.HomeHeroImg img{
+    width: 70%;
+    margin: 0 auto;
+}
+/* Hire a Developer hero image */
+.HireDevHeroImg{
+    width: 45%;
+}.HireDevHeroImg img{
+    width: 100%
+}
+/* Find Work Hero Image */
+.FindWorkHeroImg{
+    width: 50%;
+}.FindWorkHeroImg img{
+    width: 35%;
+    position: fixed;
+    bottom: 0;
+    right: 8%;  
+}
+@media only screen and (max-width: 1100px) and (min-width: 480px ) {
+    .heroSection{
+        display: block;
+    }.heroContent{
+        width: 90%;
+    }.heroContent p{
+        width: 100%;
+    }
+    .heroContent h1{
+        font-size: 70px;
+        line-height: 70px;
+    }.keyword{
+        font-size: 50px;
+    }.heroContent p{
+        font-size: 15px;
+    }.buttons{
+        display: block;
+    }.buttons button{
+        width: 100%;
+        margin: 1% 0;
+        height: 45px;
+    }.HomeHeroImg,.HireDevHeroImg, .FindWorkHeroImg{
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px ) {
+    .heroSection{
+        display: block;
+    }.heroContent{
+        width: 90%;
+    }.heroContent p{
+        width: 100%;
+    }
+    .heroContent h1{
+        font-size: 50px;
+        line-height: 50px;
+    }.keyword{
+        font-size: 35px;
+    }.heroContent p{
+        font-size: 15px;
+    }.buttons{
+        display: block;
+    }.buttons button{
+        width: 100%;
+        margin: 1% 0;
+        height: 42px;
+    }.HomeHeroImg,.HireDevHeroImg, .FindWorkHeroImg{
+        display: none;
+    }
+}

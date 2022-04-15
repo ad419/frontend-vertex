@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.buttonContainer{   
+  margin: 0 2vw 0 2vw;
+}.center{
+  display: flex;
+  flex-wrap: wrap;
+}.DevTypesButtons{
+    background-image: linear-gradient(180deg, #0054c9, #051d40e3);
+    width: 200px;
+    height: 320px;
+    border: none;
+    border-radius: 95px;
+    margin: 10px 15px;
+}.DevTypesButtons img {
+    max-width: 75%;
+}.DevTypesButtons h1{
+  font-family: Poppins;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  border-top: 3px solid #ffffff;
+  width: 80%;
+  padding: 5% 0;
+}.DevTypesButtons img, .DevTypesButtons h1{
+  margin: 10px auto;
+}
+.DevTypesButtons:hover{
+  opacity: 80%;
+}
+@media only screen and (max-width: 1100px){
+  .DevTypesButtons{
+    width: 130px;
+    height: 250px;
+  }.DevTypesButtons h1{
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital@1&family=Poppins&display=swap");
+
+/* stilimi i imazhit ↓ */
+
+.registerImage {
+  width: 40%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.registerForm {
+  width: 70%;
+}
+.registerForm img {
+  width: 20%;
+  margin: 0 auto;
+}
+/* stilimi i input f.name l.name ↓ */
+.nipcja {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.fName {
+  grid-column: 1;
+}
+.lName {
+  grid-column: 1;
+}
+.rlabel {
+  font-family: Poppins;
+  color: 0c1a2d;
+  text-align: left;
+  font: normal normal normal 16px Poppins;
+  color: #0c1a2d;
+}
+.rinput {
+  border-radius: 50px;
+  width: 40%;
+  padding: 10px 0 10px 7px;
+  border: 2px solid #707070;
+  background-color: #e2e2e2;
+}
+/* ↑ */
+.registerForm h1 {
+  font: italic 89px Neuton;
+  color: #0c1a2d;
+  text-align: center;
+}
+.registerForm button {
+  background: #0c1a2d;
+  border-radius: 50px;
+  width: 90%;
+  padding: 10px 7px 10px 0;
+  text-align: center;
+  color: white;
+}
+
+.register {
+  display: flex;
+  background-color: #e2e2e2;
+  align-items: center;
+  height: 100vh;
+}
+.laForm {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.laForm label {
+  font-family: Poppins;
+  color: 0c1a2d;
+  text-align: center;
+  font: normal normal normal 16px Poppins;
+  letter-spacing: 0px;
+  color: #0c1a2d;
+}
+.laForm input {
+  border-radius: 50px;
+  width: 90%;
+  padding: 10px 7px 10px 10px;
+  text-align: 10;
+  border: 2px solid #707070;
+  background-color: #e2e2e2;
+}
